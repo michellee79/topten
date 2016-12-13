@@ -1,0 +1,66 @@
+﻿/*HOME SIDE TABS*/
+.sideTab
+{
+    top: 20px;
+    left: 0;
+    width: 54px;
+    height: 725px;
+    cursor: pointer;
+    overflow: hidden;
+    position: fixed;
+    margin-left: -7px;
+}
+
+.sideTabSignIn
+{
+    background-image: url(../Images/sideTabSignIn.png);
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 116px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+.sideTabSignUp
+{
+    background-image: url(../Images/sideTabSignUp.png);
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 116px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+.sideTabFAQ
+{
+    background-image: url(../Images/sideTabFAQ.png);
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 116px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+.sideTabAbout
+{
+    background-image: url(../Images/sideTabAboutUs.png);
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 116px;
+    margin-left: -10px;
+}
+
+/* iPad landscape */
+@media only screen and (max-device-width: 1024px) and (orientation: landscape)
+{
+    .no-ipad
+    {
+        display:none;
+    }
+    
+     .ipad-only
+    {
+        display: block;
+    }
+    
+}

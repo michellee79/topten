@@ -1,0 +1,275 @@
+﻿/*----------------------------------- Page Master Page --------------------------------------------------------*/
+
+.pgHeaderContentContainer { background: url('../Images/img_leatherHeaderSliceInterior.jpg') repeat-x; width:100%; height:105px;}
+.pgHeaderContainer { background: url('../Images/img_leatherHeader.png') no-repeat;  height:105px; width:1000px; margin:0 auto; background-position-x: -40px; /*background-size:55% 100%;*/}
+
+.pgLogoContainer { width:334px; height:90px; margin: 8px 0 0 30px; float:left; }
+
+
+/*----------------------------------- Page --------------------------------------------------------*/
+
+.pgMainContainer { width:960px; margin:0 auto; background: url('../Images/img_contentBGSlice.png') repeat-x top left;}
+
+.pgContainer { width:920px; min-height:400px; margin:0 auto 60px auto; position:relative; top:30px;}
+
+.adminMenuContainer { width:920px; margin:0 auto 10px auto; position:relative; top:10px;}
+
+.headerText 
+{
+  font-family:OpenSansRegular;  
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.titleText 
+{
+  font-family:OpenSansRegular;
+  font-size: 24px;
+  line-height:44px;
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.companyTitle
+{
+  font-family:OpenSansRegular;
+  font-size: 15pt;  
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.subTitleText 
+{
+  font-family:OpenSansRegular;
+  font-size: 20px;
+  line-height:32px;
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.subTitleTextMultiLines
+{
+  font-family:OpenSansRegular;    
+  line-height:1.5;
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;*/
+}
+
+.subTitleSolidText 
+{
+  font-family:OpenSansRegular;
+  font-size: 20px;
+  line-height:32px;
+  color: #E6E6E6;
+}
+
+.bodyText { color:#e6e6e6;}
+
+.center {text-align:center;}
+
+.justify {text-align:justify;}
+
+/*----------------------------------- Location Page --------------------------------------------------------*/
+
+.searchContainer { width:420px; margin:0 auto; }
+.locationSearch 
+{
+    width:270px;
+    padding:5px 10px;
+    float:left;
+    margin-left:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.searchBtn { margin:2px 0 0 20px; float:left;}
+
+a.ctLink:link { color: #666;}
+a.ctLink:hover { color: #666;}
+a.ctLink:active { color: #666;}
+
+
+.BizForm{}
+
+.BizForm input[type="checkbox"] {
+    float: none;
+    margin: 0 0 0 10px;
+
+}
+
+.BizForm .subTitleText{
+    padding: 0 15px 0 0;
+    font-size: 1.1em;
+}
+
+.BizForm .titleText {
+    padding: 0 0 0 15px;
+}
+.BizForm hr {
+     display: block; height: 1px;
+    border: 0; border-top: 1px solid #C19B41;
+    margin: 1em 0; padding: 0; 
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+
+background: #C19B41 !important;
+
+}
+
+.BizForm .TR {
+    text-align: right;
+    width: 120px;
+}
+
+.BizForm label {
+    display: inline;
+    font-size: 2em;
+}
+
+.subTitleSolidText {    
+    font-size: 2em;
+}
+
+.BizForm .tt {
+    cursor: pointer;
+}
+
+.Message{
+    background-color: rgb(17, 17, 17); width: 320px; min-height: 320px; position: fixed; z-index: 999; top: 28%; left: 35%; display: none;
+    padding: 20px; border-radius: 15px;
+}
+
+.Hide {
+    z-index: 888;
+    position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; display: none; opacity: 0.8;  background-color: rgb(153, 153, 153);
+}
+
+/* Contract Styles */
+
+.ContractBody {
+    background-color: #fff;
+    color: #333;
+    /*width: 700px;*/
+    min-height: 950px;
+    padding: 75px;
+    position: relative;
+}
+
+    .ContractBody h2 {
+        text-align: center;
+    }
+    .ContractBody .left {
+        float: left;
+    }
+
+    .ContractBody .right {
+        float: right;
+    }
+
+    .ContractBody .W50p {
+        width: 45%;
+     
+    }
+
+    .ContractBody .W60p {
+        width: 55%;
+     
+    }
+
+    .ContractBody .W40p {
+        width: 40%;
+     
+    }
+
+    .ContractBody .W75p {
+        width: 70%;
+     
+    }
+    .ContractBody .W50x {
+        width: 50px;
+     
+    }
+     .ContractBody .W100p {
+        width: 95%;
+     
+    }
+
+    .ContractBody cRight {
+        clear: right;
+    }
+
+    .ContractBody cLeft {
+        clear: left;
+    }
+
+.ContractLanguage {
+    padding: 10px 0;
+}
+
+
+.ContractInputs input, .ContractInputs input:focus{
+    border: none;
+     -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+     box-shadow: none; 
+     outline: none;
+     border-bottom-color: none;
+     
+     margin-bottom: 0px;
+}
+
+.ContractBody .Sig {
+    padding: 10px 5px 0 0;
+    text-align: center;
+}
+
+.ContractBody .Fee td {
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #333;
+    padding: 3px;
+
+}
+    .ContractBody .Fee td input {
+        width: 30px;
+    }
+
+.ContractBody .Form td {
+    font-weight: bold;
+    border: 1px solid #333;
+    padding: 2px;
+    font-size:12px;
+   
+}
+
+.ContractBody .footer {
+    padding: 10px;
+    text-align: center;
+    page-break-after:always;
+    position: relative;
+
+}
+
+.ContractBody p {
+    page-break-inside: avoid;
+}
+
+.content .VideoBox{
+  width:800px;
+  height:600px;
+}
+
+.mobile-only .VideoBox{
+  width:400px;
+  height:300px;
+}

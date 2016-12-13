@@ -1,0 +1,137 @@
+﻿::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+}
+
+:-ms-input-placeholder {  
+    text-align: center; 
+}
+
+.inputBox{
+    background:#f5b436;
+    border-radius:4px;
+}
+.inputBox label{
+    color:black;
+}
+
+.inputBox input{
+    width:210px;
+    height:24px;
+    text-align:center;
+    border-radius:5px;
+}
+.inputBox select{
+    width:220px;
+    height:32px;
+    border-radius:5px;
+}
+
+h1,h2 {
+    color:#f5b436;
+    font-weight:bold;
+    height:60px;
+}
+
+h3{
+    font-size:28px;
+}
+
+.titleText{
+    color:#f5b436;
+    font-weight:bold;
+}
+
+.btnCalc {
+    margin:10px;
+    width:220px !important;
+    height:36px !important;
+    -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f5b436), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #f5b436 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #f5b436 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #f5b436 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #f5b436 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #f5b436 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#f5b436;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.btnCalc:hover{
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #f5b436));
+	background:-moz-linear-gradient(top, #ffab23 5%, #f5b436 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #f5b436 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #f5b436 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #f5b436 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #f5b436 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#f5b436;
+}
+
+.btnCalc:active{
+    position:relative;
+	top:1px;
+}
+
+.labelCell{
+    color:#f5b436;
+    font-size:24px;
+    width:400px;
+    font-weight:300;
+}
+
+.valueCell{
+    text-align:center;
+    color:black;
+    font-size:28px;
+    width:200px;
+    height:40px;
+    font-weight:bold;
+    padding:10px 0;
+}
+
+.valueCell div{
+    background:#f5b436;
+    width:100%;
+    height:32px;
+    padding-top:15px;
+}
+
+.resultValue{
+    background:#f5b436;
+    width:260px;
+    height:40px;
+    color:black;
+    font-weight:bold;
+    font-size:36px;
+    margin:10px auto;
+    padding-top:20px;
+}
+
+.navHint{
+    color:#f5b436;
+    text-decoration:none;
+}
+.navHint:hover{
+    color:#f5b436;
+    cursor:pointer;
+    text-decoration:none;
+}

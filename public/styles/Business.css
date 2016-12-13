@@ -1,0 +1,91 @@
+﻿/*----------------------------------- Page Master Page --------------------------------------------------------*/
+
+.pgHeaderContentContainer { background: url('../Images/img_leatherHeaderSliceInterior.jpg') repeat-x; width:100%; height:105px;}
+.pgHeaderContainer { background: url('../Images/img_leatherHeader.png') no-repeat;  height:105px; width:1000px; margin:0 auto; background-position-x: -40px; /*background-size:55% 100%;*/}
+
+.pgLogoContainer { width:334px; height:90px; margin: 8px 0 0 30px; float:left; }
+
+
+/*----------------------------------- Page --------------------------------------------------------*/
+
+.pgMainContainer { width:1000px; margin:0 auto; background: url('../Images/img_contentBGSlice.png') repeat-x top left;}
+
+.pgContainer { width:1000px; min-height:400px; margin:0 auto 60px auto; position:relative; top:30px;}
+
+.adminMenuContainer { width:920px; margin:0 auto 10px auto; position:relative; top:10px;}
+
+.titleText 
+{
+  font-family:OpenSansRegular;
+  font-size: 24px;
+  line-height:44px;
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.companyTitle
+{
+  font-family:OpenSansRegular;
+  font-size: 15pt;  
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.subTitleText 
+{
+  font-family:OpenSansRegular;
+  font-size: 20px;
+  line-height:32px;
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.subTitleTextMultiLines
+{
+  font-family:OpenSansRegular;    
+  line-height:1.5;
+  color: #C19B41;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#C19B41), to(#70520B));
+  -webkit-background-clip: text;*/
+}
+
+.subTitleSolidText 
+{
+  font-family:OpenSansRegular;
+  font-size: 20px;
+  line-height:32px;
+  color: #E6E6E6;
+}
+
+.bodyText { color:#e6e6e6;}
+
+.center {text-align:center;}
+
+.justify {text-align:justify;}
+
+/*----------------------------------- Location Page --------------------------------------------------------*/
+
+.searchContainer { width:420px; margin:0 auto; }
+.locationSearch 
+{
+    width:270px;
+    padding:5px 10px;
+    float:left;
+    margin-left:5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.searchBtn { margin:2px 0 0 20px; float:left;}
+
+a.ctLink:link { color: #666;}
+a.ctLink:hover { color: #666;}
+a.ctLink:active { color: #666;}
+
+

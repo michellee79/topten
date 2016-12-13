@@ -1,0 +1,41 @@
+﻿#ttp_message_wrap
+{
+    font-family: Arial,Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 105;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    background-color: #000;
+    opacity: 0.85 !important;
+    filter: alpha(opacity=85) !important; /* without width, IE6/7 will not apply filter/opacity to the element ?! */
+}
+
+#ttp_message_wrap span
+{
+    text-align: center;
+    width: 95%;
+    float: left;
+}
+
+.close-notify
+{
+    white-space: nowrap;
+    float: right;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px #fff solid;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.close-notify a
+{
+    color: #fff;
+}
